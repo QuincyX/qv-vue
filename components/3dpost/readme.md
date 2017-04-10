@@ -2,7 +2,7 @@ import组件
 ```
 import qv3dpost from '.././components/qv-3dpost.vue'
 ```
-使用组件
+声明组件
 ```
 export default {
   components: {
@@ -10,7 +10,7 @@ export default {
   }
 }
 ```
-组件demo
+使用组件
 ```
 <qv-3dpost 
   width='100%' height="600px"
@@ -21,5 +21,5 @@ export default {
   <p slot="v3" style="top:200px;left:60px;">第三层</p>
 </qv-3dpost>
 ```
-组件的css：width、height background-image已暴露出来
+组件的css：width、height background-image已暴露出来   
 三个slot为不同层次的层，定位使用absolute,只需添上top、left、bottom、right定位即可
