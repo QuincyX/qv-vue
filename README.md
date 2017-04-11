@@ -2,6 +2,6 @@
 
 一些Vue组件
 
-[3D海报](./tree/master/components/3dpost)
+[3D海报](https://github.com/QuincyX/qv-vue/tree/master/components/3dpost)
 
-[按钮](/tree/master/components/button)
+[按钮](https://github.com/QuincyX/qv-vue/tree/master/components/button)
