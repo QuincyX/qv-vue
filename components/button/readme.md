@@ -1,3 +1,16 @@
+引入组件
+```
+import qvBtn from '.././components/qv-btn.vue'
+```
+```
+export default {
+  components: {
+    qvBtn
+  }
+}
+```
+
+使用
 ```
 <qv-btn class="primary" rounded>primary</qv-btn>
 <qv-btn class="success" pill>success</qv-btn>
